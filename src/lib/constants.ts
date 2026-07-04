@@ -1,30 +1,39 @@
 export const personalInfo = {
-  name: "Challa Sirisha",
+  name: "Sirisha",
   firstName: "Sirisha",
   roles: [
-    "AWS Data Engineer",
-    "Embedded Systems Developer",
-    "Cloud & IoT Enthusiast",
+    "Python Developer & Data Engineer",
+    "Digital Electronics and Signal Processing",
   ],
-  tagline: "Building scalable data pipelines and smart embedded systems.",
+  tagline: "Researching Integrated Data Solutions and Developing End to End Data Pipelines.",
   email: "challasirisha2006@gmail.com",
-  phone: "+91 xxxxxxxxxx",
-  location: "Vishakapatnam, India",
+  phone: "+91 8179560468",
+  location: "Hyderabad, India",
   socials: {
-    github: "https://github.com/",
+    github: "https://github.com/sirisha-challa/",
     linkedin: "https://www.linkedin.com/",
   },
 };
 
 export const experience = [
+  // {
+  //   title: "AWS Data Engineer Intern",
+  //   company: "AWS Academy",
+  //   type: "Remote",
+  //   date: "Present",
+  //   highlights: [
+  //     "Engineered and optimized large-scale ETL data workflows using Amazon Redshift, improving data pipeline efficiency by 35% and processing 500GB+ of structured data.",
+  //     "Developed PySpark data processing scripts utilizing Apache Spark architecture for complex data transformations, reducing batch processing time by 40% through optimized partitioning and caching strategies.",
+  //   ],
+  // },
   {
-    title: "AWS Data Engineer Intern",
-    company: "AWS Academy",
-    type: "Remote",
-    date: "Present",
+    title: "Technical Associate(Testing)",
+    company: "Medha Servo Drives",
+    type: "Hyderabad, India",
+    date: "Dec-2021 - May 2022",
     highlights: [
-      "Engineered and optimized large-scale ETL data workflows using Amazon Redshift, improving data pipeline efficiency by 35% and processing 500GB+ of structured data.",
-      "Developed PySpark data processing scripts utilizing Apache Spark architecture for complex data transformations, reducing batch processing time by 40% through optimized partitioning and caching strategies.",
+      "Performed functional, integration, and regression testing on servo drive controllers, motor drivers, and associated firmware to ensure compliance with design specifications and industry standards..",
+      "Conducted hardware-in-the-loop (HIL) testing to validate servo drive performance under various load conditions, speed profiles, and fault scenarios..",
     ],
   },
 ];
@@ -51,7 +60,7 @@ export const projects = [
 export const skills = [
   {
     category: "Programming Languages",
-    items: ["Python", "C Language", "Embedded C", "SQL"],
+    items: ["Python", "C Language", "Embedded C", "SQL", "Java"],
   },
   {
     category: "Electronics & Embedded",
@@ -59,13 +68,16 @@ export const skills = [
       "Digital Electronics",
       "Signal Processing",
       "Multisim ISE",
+      "Keil Micro Vision",
+      "Verilog",
+      "VHDL",
       "Arduino",
-      "Microcontrollers",
+      "Microcontrollers(ESP-32, Atmega)",
     ],
   },
   {
     category: "Cloud & Data Platforms",
-    items: ["AWS (Redshift, S3)", "Amazon Redshift", "Apache Spark", "PySpark", "ETL Workflows"],
+    items: ["AWS (Redshift, S3)", "Amazon Redshift", "Apache Spark", "PySpark", "ETL Workflows", "Azure", "IBM Watson Studio"],
   },
   {
     category: "Web & Soft Skills",
@@ -74,6 +86,8 @@ export const skills = [
       "Problem Solving",
       "Analytical Thinking",
       "Communication",
+      "Leadership",
+      "Adapatability"
     ],
   },
 ];
@@ -107,16 +121,16 @@ export const certifications = [
 
 export const education = [
   {
-    institution: "Andhra University College of Engineering for Women",
-    location: "Vishakapatnam",
-    degree: "B.Tech in Electronics and Communication Engineering",
+    institution: "Andhra University College of Engineering for Women(AUCEW)",
+    location: "Vishakapatnam, India",
+    degree: "B.Tech in Electronics and Communication Engineering(ECE)",
     date: "2024 – 2027",
     details: "Aggregate: 82%",
   },
   {
-    institution: "GOVT. Polytechnic for Women",
+    institution: "Government Polytechnic for Women",
     location: "Nandigama",
-    degree: "Diploma in Electronics and Communication Engineering",
+    degree: "Diploma in Electronics and Communication Engineering(ECE)",
     date: "2021 – 2024",
     details: "Aggregate: 89.44%",
   },

@@ -30,7 +30,7 @@ export default function Experience() {
                 <ul className="space-y-2">
                   {exp.highlights.map((h, i) => (
                     <li key={i} className="text-sm text-muted-foreground flex gap-2">
-                      <span className="text-cyber-cyan mt-1">&tri;</span> {h}
+                      <span className="text-cyber-cyan mt-1">•</span> {h}
                     </li>
                   ))}
                 </ul>

@@ -35,7 +35,7 @@ export default function Hero() {
             </p>
 
             <p className="text-lg text-muted-foreground mb-8 max-w-lg">
-              {personalInfo.tagline} Currently optimizing data pipelines at <span className="text-cyber-cyan font-semibold">AWS Academy</span>.
+              {personalInfo.tagline} Currently researching System Design and Microservices. Developing End to End data pipelines at <span className="text-cyber-cyan font-semibold">AWS Academy</span>.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -80,11 +80,11 @@ export default function Hero() {
                 <p className="text-foreground">Sirisha</p>
 
                 <p><span className="text-cyber-cyan">$</span> <span className="text-muted-foreground">cat current_role.txt</span></p>
-                <p className="text-foreground">AWS Data Engineer Intern @ AWS Academy</p>
+                <p className="text-foreground">Data Engineer & Reseracher</p>
 
                 <p><span className="text-cyber-cyan">$</span> <span className="text-muted-foreground">ls skills/</span></p>
                 <p className="text-foreground">
-                  <span className="text-cyber-purple">PySpark</span>{" "}
+                  <span className="text-cyber-purple">Pandas</span>{" "}
                   <span className="text-cyber-blue">AWS_Redshift</span>{" "}
                   <span className="text-cyber-cyan">Embedded_C</span>{" "}
                   <span className="text-green-400">IoT</span>
